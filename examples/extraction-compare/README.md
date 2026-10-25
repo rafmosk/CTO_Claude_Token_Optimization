@@ -28,7 +28,7 @@ It is the method behind the measurement in [phase-based routing](../../technique
    - `only_in_large` / `only_in_small`: items one model found and the other missed (or invented)
    - `fields_different`: values that do not match on items both found
    - `Result: identical` means same items and same values
-7. **Share the numbers** with the **Benchmark** issue template: item counts, differences, tokens, models and effort. Never share the material or the JSON files.
+7. **Keep the result for yourself, or share it if you like.** If it helps answer one of the [open questions](../../docs/open-questions.md), you can post the summary with the **Try-out result** template: item counts, differences, tokens, models and effort. Never share the material or the JSON files.
 
 ## Options
 

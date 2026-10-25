@@ -1,0 +1,67 @@
+name: Improve the skill
+description: A rule of the token-budget skill you would change, add or remove.
+title: "[Skill] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the skill. Your experience is what we need: no proof, numbers or files required.
+        Please do not include personal data ([privacy rules](https://github.com/rafmosk/cto_claude_token_optimization/blob/main/PRIVACY.md)).
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which part of the skill
+      options:
+        - Settings
+        - 1. Heavy work needs an estimate
+        - 2. Minimal scope
+        - 3. Split phases across models
+        - 4. Switch chats at the right moment
+        - 5. Keep instructions lean
+        - Subagent brief templates
+        - Something missing
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: Kind of change
+      options:
+        - Change a rule
+        - Add a rule
+        - Remove a rule
+        - Change a default value
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What you would change
+      description: The new wording or value, even roughly.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What happened when you used the current rule, or what case it misses.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where you use Claude
+      placeholder: "Claude app, API, Claude Code"
+  - type: input
+    id: credit
+    attributes:
+      label: Name for the changelog
+      description: How you want to be credited if the change is accepted. Leave empty to use your GitHub username.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This issue contains no personal data, credentials or company names
+          required: true

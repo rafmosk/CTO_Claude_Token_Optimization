@@ -5,7 +5,9 @@ description: Rules to spend fewer tokens with no loss of quality. Estimate befor
 
 # Token budget
 
-Apply these rules in every chat, before any substantial work. They come from the techniques in the CTO · Claude Token Optimization project.
+Version 1.1 · community skill · propose changes at github.com/rafmosk/CTO_Claude_Token_Optimization
+
+Apply these rules in every chat, before any substantial work.
 
 ## Settings
 
@@ -15,7 +17,7 @@ Adjust these values to your plan and habits. The rules below refer to them by na
 |---|---|
 | HEAVY_SEARCHES | more than 3 web searches |
 | HEAVY_DOCS | more than 5 long documents, emails or pages |
-| USAGE_STOP | 85% of the weekly usage allowance |
+| BUDGET_STOP | subscription: 85% of the weekly usage allowance · API: the monthly amount or token budget the user set |
 | MAX_SUBAGENTS | 2, preferably in sequence |
 | CHEAP_MODEL | the smallest available model, low effort |
 | JUDGE_MODEL | a large model, medium effort |
@@ -25,8 +27,8 @@ Adjust these values to your plan and habits. The rules below refer to them by na
 Work is **heavy** when it involves subagents, more than HEAVY_SEARCHES, more than HEAVY_DOCS, a full review of a long document, or the analysis of many files at once.
 
 Before heavy work:
-1. State how many subagents and searches you plan, and the estimated share of the usage allowance. Label it as an estimate.
-2. Ask the user where their usage stands. Above USAGE_STOP, do only light work until the reset.
+1. State how many subagents and searches you plan, and the estimated share of the usage allowance or budget. Label it as an estimate.
+2. Ask the user where their usage or spending stands. Above BUDGET_STOP, do only light work until the reset or the next budget period.
 3. Offer a lighter version and an option to wait. Start only after an explicit yes that came after the cost was stated.
 
 Exemption: a single collection subagent on CHEAP_MODEL with a small, fixed scope (up to about 20 items) can start without an estimate, as long as it is declared in one line.
@@ -40,6 +42,8 @@ Exemption: a single collection subagent on CHEAP_MODEL with a small, fixed scope
 ## 3. Split phases across models
 
 A task that **collects**, **reasons** and **writes** can hand each phase to a different model through subagents, in the same chat.
+
+If subagents are not available in this environment, do every phase in the chat and skip this section: sections 1, 2 and 4 still apply.
 
 Split only above the threshold: more than HEAVY_SEARCHES or more than HEAVY_DOCS. Below it, do everything in the chat, because a subagent has a fixed start-up cost that can exceed the saving. Propose the split yourself when the threshold is crossed.
 
