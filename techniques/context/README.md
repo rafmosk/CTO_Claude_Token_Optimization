@@ -4,4 +4,7 @@ What stays in the conversation and gets re-read at every turn: when to start a n
 
 ## Techniques
 
-None yet. Add one from [`../_TEMPLATE.md`](../_TEMPLATE.md) and list it here.
+- [Estimate before heavy work](estimate-before-heavy-work.md) · tested
+- [When to start a new chat](when-to-start-a-new-chat.md) · tested
+
+Add new ones from [`../_TEMPLATE.md`](../_TEMPLATE.md) and list them here.

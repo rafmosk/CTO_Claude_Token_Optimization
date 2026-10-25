@@ -4,4 +4,7 @@ Which model and which effort level to use for which kind of work, and how to spl
 
 ## Techniques
 
-None yet. Add one from [`../_TEMPLATE.md`](../_TEMPLATE.md) and list it here.
+- [Phase-based routing with subagents](phase-based-routing.md) · measured
+- [Fixed briefs for subagents](subagent-briefs.md) · tested
+
+Add new ones from [`../_TEMPLATE.md`](../_TEMPLATE.md) and list them here.
