@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Privacy rules
+    url: https://github.com/rafmosk/cto_claude_token_optimization/blob/main/PRIVACY.md
+    about: Read before posting. Never include personal data, credentials or company names.
