@@ -1,0 +1,13 @@
+# Local list of personal terms for the privacy check (never commit)
+.privacy-blocklist
+
+# Local drafts before anonymization
+_private/
+*.private.md
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
