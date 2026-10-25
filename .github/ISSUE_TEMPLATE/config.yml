@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Just want to talk about it?
+    url: https://github.com/rafmosk/cto_claude_token_optimization/discussions
+    about: Questions, first impressions and loose ideas are welcome in Discussions.
   - name: Privacy rules
     url: https://github.com/rafmosk/cto_claude_token_optimization/blob/main/PRIVACY.md
     about: Read before posting. Never include personal data, credentials or company names.
