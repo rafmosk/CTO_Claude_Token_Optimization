@@ -4,7 +4,7 @@ An open, community-driven collection of techniques to get the same results from 
 
 The goal is simple: every technique here should be **described clearly, measured honestly, and reusable by anyone**.
 
-> **Status:** early setup. The structure is in place; the first techniques will be published after a privacy review. Ideas are welcome right now.
+> **Status:** early stage. The first five techniques are in [`techniques/`](techniques/). Ideas, measurements and corrections are welcome.
 
 ## What you will find here
 

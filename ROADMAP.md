@@ -5,7 +5,7 @@
 - [x] Issue and pull request templates
 - [x] Automatic privacy check on pull requests
 - [ ] Enable GitHub Discussions
-- [ ] First techniques published after privacy review
+- [x] First techniques published after privacy review
 
 ## Phase 1 · First collection
 - [ ] At least one documented technique per category
