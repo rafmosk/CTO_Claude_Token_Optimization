@@ -6,6 +6,12 @@ The goal is simple: every technique here should be **described clearly, measured
 
 > **Status:** early stage. The first five techniques are in [`techniques/`](techniques/). Ideas, measurements and corrections are welcome.
 
+## Try it now
+
+- **Use skills?** Install the [token-budget skill](examples/token-budget/) in the Claude app or in Claude Code.
+- **No skills?** Paste the [custom instructions](examples/custom-instructions.md).
+- **Want to measure?** Compare a cheap and a large model on your own material with the [extraction comparison kit](examples/extraction-compare/).
+
 ## What you will find here
 
 | Folder | What goes in it |

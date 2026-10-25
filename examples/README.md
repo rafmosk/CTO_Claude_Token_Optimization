@@ -13,4 +13,12 @@ examples/
     <files>        prompt, SKILL.md, configuration
 ```
 
-None yet.
+## Available
+
+| Example | What it is | For whom |
+|---|---|---|
+| [`token-budget/`](token-budget/) | Ready-to-install skill with all the techniques, for the Claude app and Claude Code | Anyone using skills |
+| [`custom-instructions.md`](custom-instructions.md) | The same rules as a short text to paste into your instructions | Anyone not using skills |
+| [`extraction-compare/`](extraction-compare/) | Script and steps to compare a cheap and a large model on your own material | Anyone who wants to measure |
+
+A skill folder (one containing `SKILL.md`) gets a ZIP for upload to the Claude app. After editing a skill, rebuild it with `python scripts/build_skill_zips.py`: a check on every pull request fails if the ZIP is out of date.

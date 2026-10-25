@@ -5,6 +5,9 @@
 _private/
 *.private.md
 
+# Outputs of the extraction comparison kit (may contain personal data)
+examples/extraction-compare/runs/
+
 # System and editor files
 .DS_Store
 Thumbs.db
